@@ -832,10 +832,10 @@ blockquote cite:before {
   color: #fff;
 }
 .navbar .navbar-nav .nav-link:hover {
-  color: #aa8453;
+  color: #e4a853;
 }
 .navbar .navbar-nav .active {
-  color: #aa8453 !important;
+  color: #e4a853 !important;
 }
 
 .nav-scroll {
@@ -861,7 +861,7 @@ blockquote cite:before {
   color: #222;
 }
 .nav-scroll .navbar-nav .active {
-  color: #aa8453 !important;
+  color: #e4a853 !important;
 }
 .nav-scroll .navbar-nav .logo {
   padding: 15px 0;
