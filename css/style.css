@@ -2587,7 +2587,7 @@ hr.border-2 {
   margin-left: 15px;
 }
 .page-list-text p {
-  font-size: 15px;
+  font-size: 20px;
   margin: 0;
 }
 /* owl-nav next and prev */
@@ -3651,7 +3651,7 @@ button.mfp-arrow {
   margin: 0;
   line-height: 1;
   font-family: "Gilda Display", serif;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 20px;
   color: #aa8453;
 }
@@ -3659,6 +3659,9 @@ button.mfp-arrow {
   font-family: "Barlow", sans-serif;
   font-size: 15px;
   color: #666;
+}
+.pricing-card .amount-free {
+  font-size: 30px;
 }
 .pricing-card .list {
   text-align: left;

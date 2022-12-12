@@ -65,26 +65,38 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
-              <span class="nav-link"> <a href="index.html"> Home</a> </span>
+              <span class="nav-link"> <a href="index.html">Početna</a> </span>
             </li>
             <li class="nav-item dropdown">
               <span class="nav-link">
-                Rooms & Suites <i class="ti-angle-down"></i
+                Apartmani <i class="ti-angle-down"></i
               ></span>
               <ul class="dropdown-menu last">
-                <li class="dropdown-item"><a href="rooms.html">Room 1</a></li>
-                <li class="dropdown-item"><a href="rooms2.html">Room 2</a></li>
-                <li class="dropdown-item"><a href="rooms3.html">Room 3</a></li>
-                <li class="dropdown-item"><a href="rooms4.html">Room 4</a></li>
-                <li class="dropdown-item"><a href="rooms5.html">Room 5</a></li>
-                <li class="dropdown-item"><a href="rooms6.html">Room 6</a></li>
+                <li class="dropdown-item">
+                  <a href="rooms.html">Apartman br.1</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="rooms2.html">Apartman br.2</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="rooms3.html">Apartman br.3</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="rooms4.html">Apartman br.4</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="rooms5.html">Apartman br.5</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="rooms6.html">Apartman br.6</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="gallery.html">Galerija</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact</a>
+              <a class="nav-link active" href="contact.html">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -94,13 +106,12 @@
     <div
       class="banner-header section-padding valign bg-img bg-fixed"
       data-overlay-dark="3"
-      data-background="img/slider/5.jpg"
+      data-background="img/slider/slider3.jpg"
     >
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-left caption mt-90">
-            <h5>Get in touch</h5>
-            <h1>Contact Us</h1>
+            <h1>Kontaktirajte nas</h1>
           </div>
         </div>
       </div>
@@ -110,25 +121,26 @@
       <div class="container">
         <div class="row mb-90">
           <div class="col-md-6 mb-60">
-            <h3>The Cappa Luxury Hotel</h3>
+            <h3>Joka Apartmani</h3>
             <p>
-              Hotel ut nisl quam nestibulum ac quam nec odio elementum sceisue
-              the aucan ligula. Orci varius natoque penatibus et magnis dis
-              parturient monte nascete ridiculus mus nellentesque habitant
-              morbine.
+              Ukoliko želite rezervisati smeštaj, imate neka pitanja ili
+              nejasnoće, stojimo Vam na raspolaganju. Popunite kontakt formu i
+              odgovorićemo Vam u najkraćem roku.
             </p>
             <div class="reservations mb-30">
               <div class="icon"><span class="flaticon-call"></span></div>
               <div class="text">
                 <p>Reservation</p>
-                <a href="tel:855-100-4444">855 100 4444</a>
+                <a href="tel:+381605087770">+381 60 508 7770</a>
               </div>
             </div>
             <div class="reservations mb-30">
               <div class="icon"><span class="flaticon-envelope"></span></div>
               <div class="text">
                 <p>Email Info</p>
-                <a href="mailto:info@luxuryhotel.com">info@luxuryhotel.com</a>
+                <a href="mailto:info@luxuryhotel.com"
+                  >joka.apartmani@gmail.com</a
+                >
               </div>
             </div>
             <div class="reservations">
@@ -136,13 +148,13 @@
                 <span class="flaticon-location-pin"></span>
               </div>
               <div class="text">
-                <p>Address</p>
-                1616 Broadway NY, New York 10001 <br />United States of America
+                <p>Adresa</p>
+                Potes pod kulom, 22408 Vrdnik, <br />Srbija
               </div>
             </div>
           </div>
           <div class="col-md-5 mb-30 offset-md-1">
-            <h3>Get in touch</h3>
+            <h3>Kontakt</h3>
             <form method="post" class="contact__form" action="mail.php">
               <!-- form message -->
               <div class="row">
@@ -152,25 +164,20 @@
                     style="display: none"
                     role="alert"
                   >
-                    Your message was sent successfully.
+                    Poruka je uspešno poslana.
                   </div>
                 </div>
               </div>
               <!-- form elements -->
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input
-                    name="name"
-                    type="text"
-                    placeholder="Your Name *"
-                    required
-                  />
+                  <input name="name" type="text" placeholder="Ime *" required />
                 </div>
                 <div class="col-md-6 form-group">
                   <input
                     name="email"
                     type="email"
-                    placeholder="Your Email *"
+                    placeholder="Email *"
                     required
                   />
                 </div>
@@ -178,7 +185,7 @@
                   <input
                     name="phone"
                     type="text"
-                    placeholder="Your Number *"
+                    placeholder="Broj telefona *"
                     required
                   />
                 </div>
@@ -186,7 +193,7 @@
                   <input
                     name="subject"
                     type="text"
-                    placeholder="Subject *"
+                    placeholder="Tema poruke *"
                     required
                   />
                 </div>
@@ -196,13 +203,13 @@
                     id="message"
                     cols="30"
                     rows="4"
-                    placeholder="Message *"
+                    placeholder="Poruka *"
                     required
                   ></textarea>
                 </div>
                 <div class="col-md-12">
                   <button class="butn-dark">
-                    <a href="#0"><span>Send Message</span></a>
+                    <a href="#0"><span>Pošalji poruku</span></a>
                   </button>
                 </div>
               </div>
@@ -232,29 +239,29 @@
           <div class="row">
             <div class="col-md-4">
               <div class="footer-column footer-about">
-                <h3 class="footer-title">About Hotel</h3>
+                <h3 class="footer-title">O nama</h3>
                 <p class="footer-about-text">
-                  Welcome to the best five-star deluxe hotel. Hotel elementum
-                  sesue the aucan vestibulum aliquam justo in sapien rutrum
-                  volutpat.
+                  Dobro došli u Joka Apartmane. Doživite nezaboravno iskustvo na
+                  Vrdničkoj kuli i proživite najlepše momente Vašeg života.
+                  Čekamo Vas.
                 </p>
 
-                <div class="footer-language">
+                <!-- <div class="footer-language">
                   <i class="lni ti-world"></i>
                   <select onchange="location = this.value;">
                     <option value="#0">English</option>
                     <option value="#0">Serbian</option>
                   </select>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="col-md-3 offset-md-1">
               <div class="footer-column footer-explore clearfix">
-                <h3 class="footer-title">Explore</h3>
+                <h3 class="footer-title">Istražite</h3>
                 <ul class="footer-explore-list list-unstyled">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="index.html">Početna</a></li>
+                  <li><a href="gallery.html">Galerija</a></li>
+                  <li><a href="contact.html">Kontakt</a></li>
                 </ul>
               </div>
             </div>
@@ -262,20 +269,17 @@
               <div class="footer-column footer-contact">
                 <h3 class="footer-title">Contact</h3>
                 <p class="footer-contact-text">
-                  Potes pod kulom, 22408 Vrdnik<br />Republic of Serbia
+                  Potes pod kulom, 22408 Vrdnik<br />Republika Srbija
                 </p>
                 <div class="footer-contact-info">
                   <p class="footer-contact-phone">
-                    <span class="flaticon-call"></span> 855 100 4444
+                    <span class="flaticon-call"></span> +381 60 508 7770
                   </p>
-                  <p class="footer-contact-mail">matijalovric80@gmail.com</p>
+                  <p class="footer-contact-mail">joka.apartmani@gmail.com</p>
                 </div>
                 <div class="footer-about-social-list">
                   <a href="#"><i class="ti-instagram"></i></a>
-                  <a href="#"><i class="ti-twitter"></i></a>
-                  <a href="#"><i class="ti-youtube"></i></a>
                   <a href="#"><i class="ti-facebook"></i></a>
-                  <a href="#"><i class="ti-pinterest"></i></a>
                 </div>
               </div>
             </div>
