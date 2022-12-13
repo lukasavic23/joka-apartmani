@@ -123,6 +123,9 @@ input[type="checkbox"]:focus,
 textarea:focus {
   outline: none;
 }
+textarea {
+  resize: none;
+}
 input[type="password"],
 input[type="email"],
 input[type="text"],
@@ -2643,12 +2646,17 @@ hr.border-2 {
 .facilties .single-facility h5 {
   font-size: 24px;
   color: #222;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .facilties .single-facility:hover h5 {
   color: #222;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+.svg-icon {
+  width: 45px;
+  height: 45px;
 }
 /*
 .facilties .facility-shape:hover span {
@@ -2675,10 +2683,10 @@ hr.border-2 {
   z-index: -1;
   bottom: 15px;
   left: 120px;
+  width: 100%;
 }
-.facilties .single-facility .facility-shape span {
-  font-size: 140px;
-  color: #222;
+.facilties .single-facility .facility-shape img {
+  max-width: 40%;
 }
 /* hr */
 hr {
@@ -4964,6 +4972,9 @@ select {
   }
   .post-comment-section h3 span {
     margin-left: 0px;
+  }
+  .section-title {
+    font-size: 35px;
   }
 }
 @media (max-width: 480px) {
