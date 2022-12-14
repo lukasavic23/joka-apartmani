@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Gilda+Display&display=swap"
     />
     <link rel="stylesheet" href="css/plugins.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css?v=3" />
   </head>
   <body>
     <!-- Preloader -->
@@ -103,7 +103,8 @@
       </div>
     </nav>
     <!-- Room Page Slider -->
-    <header class="header slider">
+
+    <header class="header slider d-mobile-none">
       <div class="owl-carousel owl-theme">
         <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
         <div
@@ -122,6 +123,33 @@
           data-background="img/rooms/room1/image-3.png"
         ></div>
       </div>
+      <div class="arrow bounce text-center">
+        <a href="#" data-scroll-nav="1" class="">
+          <i class="ti-arrow-down"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- Header Mobile -->
+
+    <header class="header slider d-mobile">
+      <div class="owl-carousel owl-theme">
+        <div
+          class="text-center item bg-img"
+          data-overlay-dark="3"
+          data-background="img/rooms/room1/image-1-mobile.jpg"
+        ></div>
+        <div
+          class="text-center item bg-img"
+          data-overlay-dark="3"
+          data-background="img/rooms/room1/image-2-mobile.jpg"
+        ></div>
+        <div
+          class="text-center item bg-img"
+          data-overlay-dark="3"
+          data-background="img/rooms/room1/image-3-mobile.png"
+        ></div>
+      </div>
       <!-- arrow down -->
       <div class="arrow bounce text-center">
         <a href="#" data-scroll-nav="1" class="">
@@ -129,6 +157,7 @@
         </a>
       </div>
     </header>
+
     <!-- Room Content -->
     <section class="rooms-page section-padding" data-scroll-index="1">
       <div class="container">

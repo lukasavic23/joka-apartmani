@@ -4990,6 +4990,9 @@ select {
   .pricing-card__image img {
     height: 100%;
   }
+  .d-mobile {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -5029,6 +5032,9 @@ select {
   .room-title {
     margin-left: 20px;
     margin-bottom: 30px;
+  }
+  .d-mobile-none {
+    display: none;
   }
 }
 @media (max-width: 480px) {
