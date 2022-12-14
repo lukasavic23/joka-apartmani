@@ -818,7 +818,10 @@ blockquote cite:before {
   height: 90px;
 }
 .navbar .icon-bar {
-  color: #aa8453;
+  color: white;
+}
+.navbar .icon-bar .ti-line-double {
+  font-size: 28px;
 }
 .navbar .navbar-nav .nav-link {
   font-family: "Barlow Condensed", sans-serif;
@@ -4861,19 +4864,13 @@ select {
   opacity: 1;
 }
 
-@media screen and (min-width: 992px) {
-  .pricing-card .pricing-card__image {
-    height: 200px;
-  }
-  .pricing-card__image img {
-    height: 100%;
-  }
-}
-
 /* ======= Responsive style ======= */
 @media screen and (max-width: 991px) {
   .bg-fixed {
     background-attachment: scroll !important;
+  }
+  .banner-header {
+    height: 30vh;
   }
   .navbar .logo {
     text-align: left;
@@ -4968,7 +4965,33 @@ select {
   .header .caption h1 {
     font-size: 40px;
   }
+  .services .content {
+    padding: 12px;
+  }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .animate-box .img,
+  .animate-box .img img {
+    height: 100%;
+  }
+  .services .content .cont h4 {
+    font-size: 1.125rem;
+  }
+  .content .cont p {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pricing-card .pricing-card__image {
+    height: 200px;
+  }
+  .pricing-card__image img {
+    height: 100%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .logo-wrapper .logo h2 {
     display: none;
@@ -5011,5 +5034,9 @@ select {
 @media (max-width: 480px) {
   .section-padding {
     padding: 50px 0;
+  }
+
+  .banner-header {
+    height: 40vh;
   }
 }
